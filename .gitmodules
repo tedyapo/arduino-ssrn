@@ -1,0 +1,4 @@
+[submodule "src/serial-ring-network"]
+	path = src/serial-ring-network
+	url = git@github.com:tedyapo/serial-ring-network.git
+	branch = main
