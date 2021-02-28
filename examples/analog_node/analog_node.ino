@@ -18,7 +18,7 @@ void led_off()
 void led_blink(uint32_t milliseconds)
 {
   led_on();
-  ssrn_set_timer_callback(LED_TIMER, milliseconds, led_off);
+  ssrn_set_timer_callback(LED_TIMER, milliseconds, led_off, 0);
 }
 
 void setup()
